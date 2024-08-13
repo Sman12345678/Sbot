@@ -8,7 +8,7 @@ async function sendMessage() {
     chatbox.appendChild(userMessage);
 
     // Call the API
-    const response = await fetch('https://for-devs.onrender.com/api/sim?type=ask&ask=${encodedMessage}&apikey=rishadboss', {
+    const response = await fetch('https://sandipbaruwal.onrender.com/gemini', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
